@@ -13,5 +13,5 @@ app.get("/newClass", (req, res) => {
   res.send(yourNewClass);
 });
 
-app.listen(3001);
+app.listen(80);
 console.log("backend started");
